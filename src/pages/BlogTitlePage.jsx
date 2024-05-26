@@ -1,10 +1,10 @@
 import React, { useContext, useState, useEffect } from 'react'
 import { useNavigate,useLocation } from 'react-router-dom';
 import NavBar from '../components/NavBar';
-import PageContent from '../components/PageContent';
+// import PageContent from '../components/PageContent';
 import Blog from '../components/Blog';
 import { PageCounterContext } from '../context/PageCounterContext';
-import { baseUrl } from '../baseUrl';
+// import { baseUrl } from '../baseUrl';
 import Spinner from '../components/Spinner';
 function BlogTitlePage() {
     const newURL = "https://codehelp-apis.vercel.app/api/get-blog";
